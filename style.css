@@ -1,7 +1,24 @@
 @charset "UTF-8";
 
+*{
+   margin: 0px; 
+   padding: 0px;
+} 
+
+header h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+header h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    padding: 12px;
+}
 main{
-    background-color: white;
+    background-color: #f47957;
     /*responsividade*/
     min-width: 300px;
     max-width: 1000px;
@@ -9,5 +26,31 @@ main{
     margin: auto;
     margin-bottom: 30px;
     box-shadow: 0px 0px 10px black;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+main img{
+    width: 100%;
+}
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main >h3>abbr{
+    text-decoration: underline;
+}
+
+header h1{
+    background-image: linear-gradient( to 
+right, #837e7d, #0000);
+}
+
+footer{
+    background-color: #454745;
+    color: white;
+    text-align: center;
+    padding: 6px;
 }
