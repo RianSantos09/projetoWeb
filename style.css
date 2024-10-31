@@ -23,6 +23,7 @@ header h2{
     padding: 12px;
 }
 main{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #f47957;
     /*responsividade*/
     min-width: 300px;
@@ -51,13 +52,13 @@ main p{
 main >h3>abbr{
     text-decoration: underline;
 }
+/*configuraçoes de video*/
 div#video{
     background-color: #837e7d;
     text-align: center;
     padding: 14px;
     border-radius: 10px;
-    box-shadow: 4px 6px 16px 4px rgb(0, 0, 0);
-    
+     box-shadow: 0px 0px 10px black; 
 }
 
 div#video>h1{
@@ -69,6 +70,13 @@ div#video>h1{
 div#video>h2{
     text-align: center;
     padding: 10px;
+}
+/*fimm das configuraçoes de video*/
+
+/*configuraçoes de audio*/
+div#audio{
+    margin-top: 20px;
+
 }
 
 footer{
