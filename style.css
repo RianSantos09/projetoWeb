@@ -12,8 +12,7 @@ header h1{
     padding: 5px;
 }
 header h1{
-    background-image: linear-gradient( to 
-right, #837e7d, #0000);
+    background-color: #837e7d;
 }
 
 header h2{
@@ -80,8 +79,8 @@ div#audio{
 }
 
 footer{
-    background-color: #454745;
-    color: white;
+    background-color: #837e7d ;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 6px;
 }
