@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 *{
+   font-family: Arial, Helvetica, sans-serif;
    margin: 0px; 
    padding: 0px;
 } 
@@ -70,17 +71,20 @@ div#video>h2{
     text-align: center;
     padding: 10px;
 }
-/*fimm das configuraçoes de video*/
+/*fim das configuraçoes de video*/
 
 /*configuraçoes de audio*/
 div#audio{
     margin-top: 20px;
 
 }
+/*fim das configuraçoes de audio*/
 
-footer{
+/*configuraçoes do roda-pé*/
+footer{ 
     background-color: #837e7d ;
     color: rgb(0, 0, 0);
     text-align: center;
-    padding: 6px;
+    padding: 1px;
+    margin-bottom: 22px;
 }
