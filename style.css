@@ -13,7 +13,7 @@ header h1{
     padding: 5px;
 }
 header h1{
-    background-color: #837e7d;
+    background-color:  #dd5532;
 }
 
 header h2{
@@ -54,7 +54,7 @@ main >h3>abbr{
 }
 /*configuraçoes de video*/
 div#video{
-    background-color: #837e7d;
+    background-color: #dd5532;
     text-align: center;
     padding: 14px;
     border-radius: 10px;
@@ -71,6 +71,10 @@ div#video>h2{
     text-align: center;
     padding: 10px;
 }
+div#cor{
+    background-color: #f47957;
+    
+}
 /*fim das configuraçoes de video*/
 
 /*configuraçoes de audio*/
@@ -82,8 +86,7 @@ div#audio{
 
 /*configuraçoes do roda-pé*/
 footer{ 
-    background-color: #837e7d ;
-    color: rgb(0, 0, 0);
+    background-color: #dd5532;
     text-align: center;
     padding: 1px;
     margin-bottom: 22px;
