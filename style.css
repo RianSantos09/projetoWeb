@@ -30,7 +30,7 @@ nav#menu li{
     margin:10px;
 }
 
-
+/*main*/
 main{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f47957;
@@ -61,6 +61,9 @@ main p{
 main >h3>abbr{
     text-decoration: underline;
 }
+/*fim das configuraçoes da main*/
+
+
 /*configuraçoes de video*/
 div#video{
     background-color: #dd5532;
