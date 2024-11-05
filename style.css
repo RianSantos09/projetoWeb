@@ -12,8 +12,9 @@ header h1{
     margin-bottom: 8px;
     padding: 5px;
 }
-header h1{
-    background-color:  #dd5532;
+header {
+    background-image:linear-gradient(to bottom right, #FFBBA9,#FF997E,#F47857);
+    margin-bottom: 8px;
 }
 
 header h2{
@@ -24,22 +25,28 @@ header h2{
 }
 
 /*menu*/
-nav#menu li{
+header>nav#menu li{
+    padding: 1.7px;
     display: inline-block;
     background-color: #f47957;
-    margin:10px;
+    margin:0.8px;
+    border-radius: 3px;
+    margin:0px 0px 10px 8px;
+}
+header>nav#menu li:hover{
+    background-color: #FF997E;
 }
 
 /*main*/
 main{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #f47957;
+    background-color: white;
     /*responsividade*/
     min-width: 300px;
     max-width: 1000px;
     padding: 20px;
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 8px;
     box-shadow: 0px 0px 10px black;
     border-radius: 10px 10px 10px 10px;
 }
@@ -66,11 +73,12 @@ main >h3>abbr{
 
 /*configuraçoes de video*/
 div#video{
-    background-color: #dd5532;
+    background-color: #e16846;
     text-align: center;
     padding: 14px;
     border-radius: 10px;
-     box-shadow: 0px 0px 10px black; 
+    box-shadow: 0px 0px 10px black; 
+    max-width: 100%;
 }
 
 div#video>h1{
@@ -101,5 +109,5 @@ footer{
     background-color: #dd5532;
     text-align: center;
     padding: 1px;
-    margin-bottom: 22px;
+    margin-bottom: 8px;
 }
