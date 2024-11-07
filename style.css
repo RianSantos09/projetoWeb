@@ -26,6 +26,7 @@ header h2{
 
 /*menu*/
 header>nav#menu li{
+    color: rgb(0, 0, 0);
     padding: 1.7px;
     display: inline-block;
     background-color: #f47957;
