@@ -72,15 +72,24 @@ main >h3>abbr{
 
 
 /*configuraçoes de video*/
-div#video{
-    background-color: #e16846;
+div.video{
     text-align: center;
-    padding: 14px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px black; 
-    max-width: 100%;
+    position: relative;
+    background-color: #e16846;
+    height: 0px;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
 }
-
+/*responsividade*/
+div.video>iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
 div#video>h1{
     max-width: 100%;
     text-align: center;
