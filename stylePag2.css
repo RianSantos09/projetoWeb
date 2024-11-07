@@ -11,3 +11,30 @@ main{
     background-image:url("img/criador_html_g.webp");
     background-repeat: no-repeat;
 }
+
+ul>li{
+    display: inline-block; 
+}
+
+ul>li#cor1{
+    color:#FFBBA9 ;
+    background-color: #FFBBA9 ;
+}
+ul>li#cor2{
+    color: #FF997E;
+     background-color: #FF997E ;
+}
+ul>li#cor3{
+    color:#F47857 ;
+     background-color: #F47857 ;
+}
+ul>li#cor4{
+    color: #DD5632;
+     background-color: #DD5632 ;
+}
+ul>li#cor5{
+    color: #B33716;
+     background-color: #B33716 ;
+}
+
+  
