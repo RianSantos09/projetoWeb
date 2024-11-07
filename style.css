@@ -75,12 +75,13 @@ main >h3>abbr{
 div.video{
     text-align: center;
     position: relative;
-    background-color: #e16846;
+    background-color: #eb8569;
     height: 0px;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 15px;
     padding-bottom: 59%;
+    border-radius: 6px;
 }
 /*responsividade*/
 div.video>iframe{
@@ -89,6 +90,7 @@ div.video>iframe{
     left: 5%;
     width: 90%;
     height: 90%;
+    
 }
 div#video>h1{
     max-width: 100%;
