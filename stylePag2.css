@@ -8,5 +8,6 @@ main{
     color: aliceblue;
     height: 400px;
     
-    background-image:url("img/criador_html_g.webp")  ;
+    background-image:url("img/criador_html_g.webp");
+    background-repeat: no-repeat;
 }
