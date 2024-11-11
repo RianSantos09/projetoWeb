@@ -1,10 +1,12 @@
 .tg  {
-      border-collapse:collapse;
+    
+      margin-left: 5px;
       border-spacing:0;
       }
 
 .tg td{
-    border-color:black;
+  background-color: aliceblue;
+    border-color:rgb(0, 0, 0);
     border-style:solid;
     border-width:1px;
     font-family:Arial, sans-serif;
@@ -14,8 +16,8 @@
     word-break:normal;}
 
 .tg th{
-
-  border-color:black;
+  background-color: rgb(108, 104, 104);
+  border-color:rgb(0, 0, 0);
   border-style:solid;
   border-width:1px;
   font-family:Arial, sans-serif;
@@ -31,16 +33,29 @@
 }
 
 .tg .tg-c3ow{
-  border-color:inherit;
+  border-color:black;
   text-align:center;
   vertical-align:top}
 
 .tg .tg-0pky{
-  border-color:inherit;  
+  border-color:black;
   text-align:center;
   vertical-align:top}
 
 .tg .tg-0lax{
   text-align:center;
   vertical-align:top
+  }
+
+  div#table{
+     width: 600px;
+      background-color:#f47957;
+      margin-bottom: 9px;
+  }
+
+  input{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
   }
