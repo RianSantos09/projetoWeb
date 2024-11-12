@@ -1,8 +1,12 @@
 .tg  {
-    
-      margin-left: 5px;
-      border-spacing:0;
-      }
+     position: absolute;
+    height: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 59%;
+    border-radius: 6px;
+   }
 
 .tg td{
   background-color: aliceblue;
@@ -48,14 +52,25 @@
   }
 
   div#table{
-     width: 600px;
-      background-color:#f47957;
-      margin-bottom: 9px;
+    background-color:#eb8569;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 55%;
+    height: 40%;
   }
 
+  div#table>div button{
+    border-radius: 3PX;
+    box-shadow: none;
+    border-color: #646160;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color:#eb8569 ;
+  }
+  
   input{
-    display: inline-block;
+    display: inline;
     margin-left: 5px;
-    margin-right: 5px;
     margin-bottom: 8px;
   }
