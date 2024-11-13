@@ -1,14 +1,9 @@
 .tg  {
-    position: absolute;
-    height: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-    padding-bottom: 59%;
-    border-radius: 6px;
+ text-align: center;
    }
 
 .tg td{
+  text-align: center;
   background-color: aliceblue;
     border-color:rgb(0, 0, 0);
     border-style:solid;
@@ -20,6 +15,7 @@
     word-break:normal;}
 
 .tg th{
+  text-align: center;
   background-color: rgb(108, 104, 104);
   border-color:rgb(0, 0, 0);
   border-style:solid;
@@ -50,16 +46,37 @@
   text-align:center;
   vertical-align:top
   }
+     main{
+      background-color: rgb(235, 133, 105);
+      min-width: 300px;
+      max-width: 1000px;
+      padding: 20px;
+      margin: auto;
+      margin-bottom: 8px;
+      box-shadow: 0px 0px 10px black;
+      border-radius: 10px 10px 10px 10px;
+    }
 
-div#table{
-    background-color:rgb(235, 133, 105);
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 55%;
-    height: 40%;
-  }
+    div.table{
+        text-align: center;
+        position: relative;
+        background-color: rgb(235, 133, 105);
+        height: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 15px;
+        padding-bottom: 59%;
+        border-radius: 6px;
+    }
 
+    div.table>table.tg{
+      text-align: center;
+      position: absolute;
+      top: 5%;
+      left: 5%;
+      width: 90%;
+      height: 90%;   
+    }
   div#table>div button{
     border-radius: 3PX;
     box-shadow: none;
@@ -74,3 +91,12 @@ div#table{
     margin-left: 5px;
     margin-bottom: 8px;
   }
+
+  
+
+
+  
+
+ 
+
+  
