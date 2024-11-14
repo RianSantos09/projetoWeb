@@ -1,10 +1,11 @@
+/*classe de edição das tabelas*/
 .tg  {
  text-align: center;
    }
 
 .tg td{
-  text-align: center;
-  background-color: aliceblue;
+    text-align: center;
+    background-color: aliceblue;
     border-color:rgb(0, 0, 0);
     border-style:solid;
     border-width:1px;

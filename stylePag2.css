@@ -5,11 +5,22 @@
 } 
 
 main{
+    text-align: center;
     color: aliceblue;
     height: 400px;
-    
     background-image:url("img/criador_html_g.webp");
+    background-position: center;
     background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    /*responsividade*/
+    min-width: 200px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px 10px 10px 10px;
 }
 
 ul>li{
@@ -37,4 +48,24 @@ ul>li#cor5{
      background-color: #B33716 ;
 }
 
-  
+/*mudando cores das fontes conforme a resolução*/
+@media(max-width: 660px){
+    main{
+        color: rgb(255, 0, 0);
+        
+    }
+}
+
+@media(min-width: 660px) and (max-width:1024px){
+    main{
+        font-size: large;
+        color: #FF997E;
+    
+    }
+}
+
+@media (min-width:1025px){
+    main{
+        color: blue;
+    }
+}
