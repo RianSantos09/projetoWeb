@@ -3,19 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
-
-/*principal*/
-main{
-    background-color: rgb(255, 255, 255);
-    /*responsividade*/
-    min-width: 687px;
-    max-width: 1000px;
-    padding: 20px;
-    margin: auto;
-    margin-bottom: 30px;
-    box-shadow: 0px 0px 10px black;
-    border-radius: 0px 0px 10px 10px;
+/*COMFIGURAÇOES DA CLASSE 'FORMULARIO' */
+.formulario{
+    background-color: rgba(255, 166, 0, 0.069);
+    max-width: 350px;
+    padding: 1rem;
+    border-radius: 9px;
 }
+
 div{
     text-align: center;
     padding-top: 20px;

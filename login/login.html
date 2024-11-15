@@ -1,47 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark" class="h-100%">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!--BOOTSRAP por download-->
+    <!--Bootstrap por link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Bootstrap por download-->
     <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.3-dist/css">
     <script src="../bootstrap/bootstrap-5.3.3-dist/js"></script>
     <link rel="stylesheet" href="style_login.css">
-    <title>Document</title>
+    <title>Formulário</title>
 </head>
-<body>
-    <main>
-    <div>
-        <p>preencha o formulario</p>
+<body class="d-flex alingn-itens-center py-4 bg-body-">
+    <main class="w-100 m-auto formulario">
+        <!--formulario--> 
+        <!--coletando informações-->
+        <form>
+        <img src="../img/icons/monitoramento (1).png" alt="computador" class="mb-4" height="57" width="72"/>
+        <h1 class="h4 mb-3 fw-norm">PREENCHA O FORMULÁRIO</h1>
+        <div class="form-floating">
+            <input type="text" class="form-control" id="floatingInput" placeholder="NOME">
+            <label for="floatingInput">Nome</label>
+        </div>
+         <div class="form-floating">
+            <input type="number" class="form-control" id="floatingInput" placeholder="SALARIO">
+            <label for="floatingInput">SALARIO</label>
+        </div>
+        <div class="form-floating">    
+            <select type="number" class="form-control" id="floatingInput" placeholder="EXPERIÊCIA">
+                <option>Back-end</option>
+                <option>Front-end</option>
+                <option>Full-stack</option>
+            </select>
+            <label for="floatingInput">EXPERIÊCIA</label>
+        </div>
+        <div class="form-check text-start my-3">
+            <input type="checkbox" class="form-check-input" id="flexCheckdefault"/>
+            <label class="form-check-label" for="flexCheckdefault">Lembre-se de mim</label>
+        </div>
+        <button class="btn btn-primary w-100 py-2">CADASTRAR</button>
         <br>
-    </div>
- <!--formulario-->
-    <form>
-        <fieldset>
-             <!--coletando informações-->
-            <div>
-                <label>NOME</label>
-                <input type="text" name="cidade_nome" id="cidade_nome">
-            </div>
-            <div>
-                <label>SALARIO</label>
-                <input type="number" name="cnpj" id="cnpj">
-            </div>
-            <div id="select_lixo">
-            <label>EXPERIÊCIA</label>     
-                <select name="tipo_lixo">
-                    <option>Back-end</option>
-                    <option>Front-end</option>
-                    <option>Full-stack</option>
-                </select>
-            </div>
-        </fieldset>
-</form>
-</main>
-<a href="../index/index.html">VOLTAR</a>
-<br>
-<a href="../cadastrados/cadastrados.html">CADASTRADOS</a>
+        <div>
+            <a href="../index/index.html"></a><button class="btn btn-primary w-100 py-2">VOLTAR</button>
+        <div>
+            <a href="../cadastrados/cadastrados.html"></a><button class="btn btn-primary w-100 py-2">CADASTRADOS</button>
+        </div>
+            </main>
+
+
 
 </body>
 </html>
