@@ -24,19 +24,6 @@ header h2{
     padding: 12px;
 }
 
-/*menu*/
-header>nav#menu li{
-    color: rgb(0, 0, 0);
-    padding: 1.7px;
-    display: inline-block;
-    background-color: #f47957;
-    margin:0.8px;
-    border-radius: 3px;
-    margin:0px 0px 10px 8px;
-}
-header>nav#menu li:hover{
-    background-color: #FF997E;
-}
 
 /*main*/
 main{
